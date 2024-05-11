@@ -51,7 +51,7 @@
   
   .navigation-links a {
     margin: 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
@@ -66,6 +66,7 @@
   .about-link {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+
   }
   
   .homepage-link {
@@ -95,7 +96,7 @@
   
   .projects a {
     margin: 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
@@ -136,9 +137,37 @@
   }
   
 
-  @media (max-width: 430) {
-    img {
+  @media (max-width: 430px) {
+    img, video {
         display: none;
     }
 
+    h1 {
+        font-size: 55px;
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .projects h2 {
+        font-size: 35px;
+        margin-top:20px;
+        text-align: center;
+        
+    }
+
+    .projects p {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    a {
+        font-size: 12px;
+        padding: 8px;
+        text-align: center;
+    }
+    
+   
   }
