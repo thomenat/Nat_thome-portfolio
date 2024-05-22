@@ -3,22 +3,28 @@
     --primary-color: #FE5E87;
     --secondary-color: #fff;
     --tertiary-color: #F8F6FF;
+    --text-color: #040009;
+    --text-color-light: #6B7280;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    --heading-font-family: "Trocchi", serif;
+    --heading-font-family: "Taviraj", serif;
     --default-font-family: "Poppins", sans-serif;
     }
 
 
   
   body {
-    margin: 60px auto;
     margin-top: 100px;
     max-width: 1400px;
+    }
+
+    .homepage-container {
+      text-align: center;
     }
 
   .navbar {
     font-family: var(--default-font-family);
     background-color: var(--secondary-color) !important;
+    color: var(--text-color) !important;
    
   }
 
@@ -36,15 +42,19 @@
     background-color: var(--tertiary-color);
   }
 
-.memoji {
+  .memoji {
   display: block;
   width: 202px;
   height: 100%;
-}
+  }
 
-.homepage-header {
-  text-align: left;
-}
+ .homepage-header {
+  text-align: center;
+  width: 273px;
+  height: 208px;
+  display: block;
+ 
+  }
 
   h2,
   h3 {
@@ -54,16 +64,15 @@
   
   h1 {
     font-family: var(--heading-font-family);
-    font-size: 72px;
-    font-weight
-    text-align: center;
+    font-size: 32px;
+    font-weight: 1;
+    color: var(--text-color);
     line-height: 92px;
-    margin-bottom: 20px;
-    
-  }
+    margin-bottom: 50px;
+    }
 
   strong {
-    font-weight: 900;
+    font-weight: bold;
   }
   
   h2 {
@@ -74,7 +83,11 @@
     font-size: 24px;
     opacity: 0.7;
     font-weight: 400;
-    line-height: 28px;
+  }
+
+  .homepage-halfblock h3 {
+    color: var(--text-color-light);
+    line-height: 32px;
   }
 
   p, a {
@@ -143,7 +156,7 @@
   .contact-icons a {
     display: block;
     justify-content: center;
-    color: black;
+    color: var(--text-color);
     font-size: 28px;
     text-decoration: none;
   }
