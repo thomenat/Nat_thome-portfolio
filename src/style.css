@@ -12,19 +12,24 @@
 
 
   
-  body {
-    margin-top: 100px;
-    max-width: 1400px;
-    }
+body {
+  max-width: 1728px;
+  height: 800px;
+}
 
-    .homepage-container {
+  .homepage-container {
       text-align: center;
+      
     }
 
   .navbar {
     font-family: var(--default-font-family);
     background-color: var(--secondary-color) !important;
     color: var(--text-color) !important;
+  }
+  .navbar-collapse {
+    text-align: right;
+    background-color: transparent;
    
   }
 
@@ -43,18 +48,22 @@
   }
 
   .memoji {
-  display: block;
   width: 202px;
   height: 100%;
+  text-align: center;
+  margin-top: 160px;
+  background-color: var(--tertiary-color);
   }
 
- .homepage-header {
-  text-align: center;
-  width: 273px;
-  height: 208px;
-  display: block;
- 
-  }
+
+  h1 {
+    text-align: center;
+    font-family: var(--heading-font-family);
+    font-size: 32px;
+    font-weight: 1;
+    color: var(--text-color);
+    line-height: 92px;
+    }
 
   h2,
   h3 {
@@ -62,14 +71,7 @@
     font-family: var(--default-font-family);
   }
   
-  h1 {
-    font-family: var(--heading-font-family);
-    font-size: 32px;
-    font-weight: 1;
-    color: var(--text-color);
-    line-height: 92px;
-    margin-bottom: 50px;
-    }
+ 
 
   strong {
     font-weight: bold;
@@ -83,6 +85,14 @@
     font-size: 24px;
     opacity: 0.7;
     font-weight: 400;
+    line-height: 32px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin: auto;
+    max-width: 502px;
+    height: 128px;
+    
+    
   }
 
   .homepage-halfblock h3 {
@@ -94,24 +104,20 @@
     font-family: var(--default-font-family);
   }
   
-  .about-me-p {
-    background: none;
-    padding: 20px;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
-  }
+ .about-container .about-text {
+    width: 592px;
+    height: 506px;
+ }
+
+ .about-img {
+  width: 209px;
+  height: 506px;
+ }
   
   .navigation-links {
     display: flex;
     margin-top: 40px;
     justify-content: center;
-  }
-  
-  .navigation-links a {
-    text-transform: none;
-   
   }
   
   .contact-link {
@@ -120,17 +126,16 @@
     color: white;
   }
   
-  .projects {
-    margin-top: 50px;
-    padding: 20px;
-  }
-  
- .navigation-links a, .projects a, .about-section-content a {
-    font-size: 0.8rem;
-    margin: 70px 20px;
-    border-radius: 12px;
-    padding:8px 24px;
-    font-weight: 400px;
+
+  /* button component*/
+  .navigation-links a, .projects a, .about-section-content a {
+    font-size: 14px;
+    width: 162px;
+    height: 48px;
+    line-height: 24px;
+    border-radius: 8px;
+    margin: 48px 215px;
+    padding: 12px 0 12px 0;
     text-align: center;
     text-decoration: none;
     background: var(--primary-color);
@@ -138,9 +143,20 @@
     color: white;
   }
 
+  .navigation-links a {
+    text-transform: none;
+   
+  }
+
   .projects a, .about-section-content a {
     text-transform: capitalize;
   }
+
+  .projects {
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
   
   .row {
    box-sizing: border-box;
@@ -166,9 +182,6 @@
   }
   
   .img-fluid {
-    max-width: 100%;
-    height: 300px;
-    padding: 5px;
     border-radius: 15px;
   }
   
