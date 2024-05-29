@@ -30,7 +30,7 @@ body {
    
   }
 
-  .homepage-navbar {
+  .homepage-navbar, .projects-page-navbar {
     background-color: var(--tertiary-color) !important;
 
   }
@@ -79,7 +79,7 @@ body {
     font-size: 48px;
   }
   
-  h3 {
+  .homepage-container h3 {
     font-size: 24px;
     opacity: 0.7;
     font-weight: 400;
@@ -194,7 +194,6 @@ body {
   }
   
   .homepage-projects-cards img, .homepage-projects-cards video {
-    border-radius: none !important;
     text-align: center;
     vertical-align:middle;
 
@@ -272,7 +271,7 @@ body {
     cursor: pointer;
   }
   
-  footer {
+  .homepage-container footer {
     margin: 100px auto;
     font-size: 14px;
     text-align: center;
@@ -280,13 +279,12 @@ body {
 
   .about-container {
     margin: 150px auto;
+    padding-left: 60px;
     display: flex;
     justify-content: center;
     width: 930px;
     height: 506px;
     text-align: center;
-    
-    
    }
 
  .about-text {
@@ -349,29 +347,66 @@ body {
   }
 
   .projects-tab-container {
-    
-    text-align: center;
-    margin: 150px 100px auto;
-    text-align: left;
     justify-content: center;
-    width: 930px;
-    height: 506px;
-    
+    width: 100%;
+    height: 100%;
   }
 
-  .projects-tab-container h2 {
-  
+  .projects-tab-container h1 {
     font-size: 40px;
     line-height: 60px;
     color: var(--text-color);
     font-family: var(--heading-font-family);
     font-weight: 200;
     text-align: left;
+    padding-bottom: 140px;
   }
+
+  .projects-vdg-block, .projects-wa-block, .projects-wca-block, .projects-pg-block {
+    padding: 150px 80px 50px 100px;
+  }
+
+
+  .projects-vdg-block {
+    background-color: var(--tertiary-color);
+  }
+
+  .projects-wa-block {
+    background-color:#F0FB96;
+  }
+
+  .projects-wca-block {
+    background-color:#6A57E3;
+    color: #fff;
+  }
+
+  .projects-pg-block {
+    background-color: #D6E9EB;
+  }
+
+  .projects-tab-container h3 {
+    font-size: 20px;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .projects-vdg-block h3, .projects-wa-block h3, .projects-pg-block h3 {
+    color: var(--text-color-light);
+  }
+  
+
+  .projects-tab-container img, .projects-tab-container video {
+    padding: 0 40px 0 40px;
+    border-radius: 36px;
+  }
+
+  
 
   .projects-tab-container footer {
     display: block;
-    margin-top: 50px;
+    background-color: #D6E9EB;
+    padding: 50px;
   }
 
 
