@@ -248,7 +248,8 @@ body {
 
   .contact-icons h4 {
     font-size: 20px;
-    font-family: var(--default-font-family);
+    font-weight: bolder;
+    font-family: var(--heading-font-family);
     color:var(--primary-color);
     font-weight: 400;
     padding-bottom: 15px;
