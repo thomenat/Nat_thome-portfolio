@@ -243,26 +243,30 @@ body {
   
 
   .contact-icons {
-    margin-bottom: 20px;
+    margin: 20px auto 50px auto;
   }
 
-  .contact-icons span {
+  .contact-icons h4 {
     font-size: 20px;
     font-family: var(--default-font-family);
     color:var(--primary-color);
     font-weight: 400;
-    
+    padding-bottom: 15px;
   }
 
   .contact-icons a {
-    justify-content: center;
+    text-align: center;
+    margin: 0 10px;
     color: var(--text-color);
-    font-size: 28px;
+    font-size: 24px;
     text-decoration: none;
+    padding: 10px 10px;
   }
   
   a:hover {
     cursor: pointer;
+    opacity: 50%;
+    transition: 100ms all;
   }
   
  footer {
