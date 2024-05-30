@@ -65,13 +65,13 @@
    
     <div class="homepage-halfblock">
   
-    <img src="media/nthome-memoji.png" alt="Natalia's memoji" class="homepage-memoji">
+    <img src="media/nthome-memoji.png" alt="Natalia's memoji" class="homepage-memoji img-fluid">
     <h1>
       Hi 👋, I'm <strong>Natália</strong>
     </h1>
  
  
-  <div class="homepage-paragraph">
+  <div class="homepage-paragraph d-flex text-center">
     <h3>
       I am an aspiring Front-end Developer specializing in React, Apps Script, and JavaScript.
       Based in Portugal, I work remotely with clients and teams worldwide.
@@ -84,7 +84,7 @@
 
   </div>
 
-
+  <div class="row">
   <div class="homepage-projects-container"> 
   <div class="homepage-projects-summary">
   <span>My projects</span>
@@ -94,52 +94,56 @@
   </p>
 </div>
     <div class="homepage-projects-cards">
-      <div class="row flex-nowrap" >
-        <div class="worldClock-card col-md-4">
+      <div class="row flex-nowrap justify-content-center" >
+        <div class="worldClock-card col-sm-4">
           <span>World Clock App</span>
           <video src="media/world-clock-app.mov" alt = "world clock video" class=" img-fluid" loop="true" autoplay="autoplay" controls muted > 
           </video>
-            <a href="https://hora-mundo.netlify.app/">See more</a>
+          <div>
+            <a href="https://hora-mundo.netlify.app/" target="_blank">See more</a>
+          </div>  
         </div>
 
-          <div class="weatherApp-card col-md-4">
+          <div class="weatherApp-card col-sm-4">
             <span class="text-start">Weather App</span>
             <img src="media/weather-app.png" class="weather-app-card img-fluid" alt="weather app image">
-              <a href="https://my-clima-final.netlify.app/">See more</a>
+              <a href="https://my-clima-final.netlify.app/" target="_blank">See more</a>
           </div>
 
-          <div class="poemGenerator-card col-md-4">
+          <div class="poemGenerator-card col-sm-4">
             <span>Poem Generator</span>
             <video src="media/poem-generator.mov" alt="poem generator video" class="img-fluid" loop="true" autoplay="autoplay" controls muted >
             </video>
-              <a href="https://write-me-a-poem.netlify.app/">See more</a>
+              <a href="https://write-me-a-poem.netlify.app/" target="_blank">See more</a>
           </div>
         </div>
     </div>
   </div>
-    <footer>
-      
+</div>
+</div>
+
+    <footer> 
       <div id="contact" class="contact-icons text-center mt-5">
         <h4>
           Contact
         </h4>
-        <a href="https://github.com/thomenat">
+        <a href="https://github.com/thomenat" target="_blank">
         <i class="fa-brands fa-github"></i>
         </a>
         <a href="mailto:nataliathome@gmail.com" class="email-link">
         <i class="fa-solid fa-envelope"></i>
         </a>
-        <a href="https://www.linkedin.com/in/natalia-thome/">
+        <a href="https://www.linkedin.com/in/natalia-thome/" target="_blank">
         <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>
-
       This project was coded by 
       <a href="https://github.com/thomenat" target="_blank" >Natália Thomé</a>  
       and is 
       <a href="https://github.com/thomenat/Nat_thome-portfolio" target="_blank">open sourced on GitHub</a>
       and <a href="https://thome-natalia-portfolio.netlify.app/" target="_blank">hosted on Netlify</a>
       </footer>
+    
     </div>
   </body>
 </html>

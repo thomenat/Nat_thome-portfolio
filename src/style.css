@@ -9,8 +9,6 @@
     --heading-font-family: "Taviraj", serif;
     --default-font-family: "Poppins", sans-serif;
     }
-
-
   
 body {
   max-width: 100%;
@@ -26,8 +24,6 @@ body {
     text-align: right;
     background-color: transparent !important;
   }
-
-  
 
   .active {
     color: var(--primary-color) !important;
@@ -63,8 +59,6 @@ body {
     font-family: var(--default-font-family);
   }
   
- 
-
   strong {
     font-weight: bold;
   }
@@ -73,6 +67,13 @@ body {
     font-size: 48px;
   }
   
+  .homepage-paragraph {
+    width: 592px;
+    height: 128px;
+    margin: auto;
+  }
+
+
   .homepage-container h3 {
     font-size: 24px;
     opacity: 0.7;
@@ -81,7 +82,6 @@ body {
     margin-top: 48px;
     margin-bottom: 48px;
     margin: auto;
-    max-width: 502px;
     height: 128px;
   }
 
@@ -123,27 +123,15 @@ body {
     color: white;
   }
 
-  .navigation-links a {
-    text-transform: none;
-   
-  }
-
-  .row {
-    max-width: 1291px !important;
-  }
-
   .homepage-projects-container {
-    width: 1291px;
-    height: 694px;
     margin: auto;
+    justify-content: center;
   }
 
   .homepage-projects-summary {
     text-align: center;
     justify-content: center;
     font-family: var(--default-font-family);
-    width: 952px;
-    height: 128px;
     margin: auto;
     margin-top: 115px;
   }
@@ -157,12 +145,6 @@ body {
     font-size: 36px;
     font-weight: bold;
     color: var(--text-color);
-    text-align: left;
-  }
-
-  .homepage-projects-cards a {
-    text-align: right;
-
   }
 
   .homepage-projects-cards a, .about-section-content a {
@@ -171,12 +153,8 @@ body {
   }
 
   .homepage-projects-cards {
-    width: 1291px;
-    height: 500px;
     margin-top: 64px;
-    padding: 20px;
-  
-  
+    padding: 20px;  
   }
 
   .homepage-projects-cards span {
@@ -187,10 +165,13 @@ body {
     width: 205px;
   }
   
+  .homepage-projects-cards a {
+    text-align: right !important;
+  }
+
   .homepage-projects-cards img, .homepage-projects-cards video {
     text-align: center;
-    vertical-align:middle;
-
+    vertical-align: middle;
   }
   
   .worldClock-card, .weatherApp-card, .poemGenerator-card {
@@ -234,25 +215,20 @@ body {
   .weatherApp-card a, .poemGenerator-card a {
   color: var(--text-color);
   }
-  
-  .col-md-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-    padding: 50px auto;
-  }
-  
 
   .contact-icons {
-    margin: 20px auto 50px auto;
+    margin: 70px auto 50px auto !important;
+    padding-top: 70px !important;
   }
 
   .contact-icons h4 {
     font-size: 20px;
-    font-weight: bolder;
-    font-family: var(--heading-font-family);
+    font-weight: 500;
+    font-family: var(--default-font-family);
     color:var(--primary-color);
     font-weight: 400;
-    padding-bottom: 15px;
+    padding-top: 70px;
+    padding-bottom: 15px !important;
   }
 
   .contact-icons a {
@@ -309,7 +285,7 @@ body {
 
 
  .about-container img {
-  
+  width: auto;
   height: 506px;
   margin: auto;
   border-radius: 16px;
@@ -372,7 +348,6 @@ body {
     padding: 150px 80px 50px 100px;
   }
 
-
   .projects-vdg-block {
     background-color: var(--tertiary-color);
     vertical-align: middle;
@@ -402,7 +377,6 @@ body {
     color: var(--text-color-light);
   }
   
-
   .projects-tab-container img, .projects-tab-container video {
     padding: 0 40px 0 40px;
     border-radius: 36px;
@@ -418,7 +392,6 @@ body {
   .contact-page-container {
     text-align: center;
     margin: auto;
-    margin-top: 150px;
   }
 
   .contact-page-container h1 {
@@ -440,61 +413,63 @@ body {
     width: 250px;
     height: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 160px;
     }
 
-  @media (max-width: 430px) {
-   
-    body {
-      max-width: fit-content;
-      height: auto;
-      text-align: center;
-    }
-    
-
-
+  @media (max-width: 900px) {
     h1 {
-        font-size: 45px;
-        margin-bottom: 5px;
+      font-size: 24px;
+      line-height: 1.5;
     }
-
-
-    h2 {
-        font-size: 40px;
-    }
-
-    h3 {
-      font-size: 20px;
-      margin-bottom: 4px;
-    }
-
-    a {
-        font-size: 12px;
-        font-weight: 200px;
-        padding: 8px;
-        text-align: center;
-        height: auto;
-    }
-    
-    .navigation-links {
-      margin-top: 5px;
-    }
-
-    .img-fluid {
-      max-width: 50%;
-      height: 150px;
-      padding: 1px;
-    }
-    
-  .homepage-projects-images {
-    margin-top: 5px;
-    padding: 5px;
-  } 
   
-footer {
-  margin: 25px auto;
-  font-size: 10px;
-}
+    h2 {
+      font-size: 22px;
+    }
+  
+    h3, p {
+      font-size: 20px;
+    }
+  
+    body {
+      text-align: center;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+    }
 
+    .contact-link {
+      width: 366px;
+      height: 48px;
+      border-radius: 8px;
+      padding: 12px 40px;
+    }
+
+    .col-sm-4 {
+      display: block;
+      width: auto;
+      height: auto;
+    }
+
+    .homepage-container {
+     text-align: center;
+     width: auto;
+     height: auto;
+    }
+
+    .homepage-paragraph {
+      width: 366px;
+      height: 160px;
+    }
+
+    .contact-page-memoji, .homepage-memoji {
+      width: 25%;
+      height: 25%;
+    }
+
+    .worldClock-card, .weatherApp-card, .poemGenerator-card {
+      width: 398px;
+      height: 500px;
+    }
 
   }
