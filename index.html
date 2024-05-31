@@ -28,7 +28,7 @@
 
   <body>
 
-    <div class="homepage-container">
+    <div class="homepage-container container">
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top homepage-navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Nat_ália</a>
@@ -63,8 +63,7 @@
     </nav>
 
    
-    <div class="homepage-halfblock">
-  
+    <div class="homepage-halfblock"> 
     <img src="media/nthome-memoji.png" alt="Natalia's memoji" class="homepage-memoji img-fluid">
     <h1>
       Hi 👋, I'm <strong>Natália</strong>
@@ -79,13 +78,13 @@
   </div>
 
     <div class="navigation-links">
-      <a href="contact.html" class="contact-link">Get in touch</a>
+      <a href="contact.html" class="btn contact-button d-grid d-md-block">Get in touch</a>
     </div>
 
   </div>
 
   <div class="row">
-  <div class="homepage-projects-container"> 
+  <div class="homepage-projects-container container"> 
   <div class="homepage-projects-summary text-center">
   <span>My projects</span>
   <p>
@@ -93,28 +92,30 @@
     where I was able to put my learnings into practice.
   </p>
 </div>
-    <div class="homepage-projects-cards row justify-content-evenly">
-      <div class="col-12 col-md-4" >
+    <div class="homepage-projects-cards row justify-content-evenly gx-4">
+      <div class="col-12 col-md-4">
         <div class="worldClock-card">
-          <span>World Clock App</span>
+          <h5>World Clock App</h5>
           <video src="media/world-clock-app.mov" alt = "world clock video" class="img-fluid" loop="true" autoplay="autoplay" controls muted > 
           </video>
-          <div>
-            <a href="https://hora-mundo.netlify.app/" target="_blank">See more</a>
+          <div class="row">
+            <a href="https://hora-mundo.netlify.app/" target="_blank" class="col-sm-12">See more</a>
           </div>  
         </div>
       </div>
       <div class="col-12 col-md-4">
           <div class="weatherApp-card">
-            <span class="text-start">Weather App</span>
+            <h5 class="text-start">Weather App</h5>
             <img src="media/weather-app.png" class="weather-app-card img-fluid" alt="weather app image">
+              <div>
               <a href="https://my-clima-final.netlify.app/" target="_blank">See more</a>
+            </div>
           </div>
       </div>
 
       <div class="col-12 col-md-4">    
-            <div class="poemGenerator-card col-12 col-md-4">
-            <span>Poem Generator</span>
+            <div class="poemGenerator-card">
+            <h5>Poem Generator</h5>
             <video src="media/poem-generator.mov" alt="poem generator video" class="img-fluid" loop="true" autoplay="autoplay" controls muted >
             </video>
               <a href="https://write-me-a-poem.netlify.app/" target="_blank">See more</a>
