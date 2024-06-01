@@ -40,6 +40,7 @@ body {
     height: 100% !important;
     background-color: var(--tertiary-color);
     text-align: center;
+    padding-bottom: 50px;
   }
 
   .homepage-memoji {
@@ -74,6 +75,11 @@ body {
     font-size: 48px;
   }
   
+  .homepage-container {
+  width: 100%;
+  height: 100%;
+  }
+
   .homepage-paragraph {
     width: 592px;
     height: 128px;
@@ -127,8 +133,9 @@ body {
   }
 
   .homepage-projects-container {
-    margin: auto;
-    justify-content: center;
+   justify-content: center;
+   padding: auto;
+   margin: auto;
   }
 
   .homepage-projects-summary {
@@ -171,12 +178,8 @@ body {
     text-align: right !important;
   }
 
-  .worldClock-card, .weatherApp-card, .poemGenerator-card {
-    width: 390px;
-    height: 500px;
-    padding: 24px;
-    border-radius: 16px;
-    margin: auto;
+  .card {
+    height: 413px !important;
   }
 
   .homepage-projects-cards img, .homepage-projects-cards video {
@@ -192,8 +195,7 @@ body {
   }
 
   .weatherApp-card img {
-    width: 361px !important;
-    height: 400px !important;
+    height: fit-content;
   }
   
   .worldClock-card a {
@@ -299,13 +301,6 @@ body {
 
   }
 
-  .projects-tab-container {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-  }
-
   .projects-tab-container h1 {
     font-size: 48px;
     line-height: 60px;
@@ -317,7 +312,7 @@ body {
   }
 
   .projects-vdg-block, .projects-wa-block, .projects-wca-block, .projects-pg-block {
-    padding: 150px 80px 50px 100px;
+    padding: 100px 50px 50px 50px;
   }
 
   .projects-vdg-block {
@@ -413,13 +408,6 @@ body {
       height: auto;
     }
 
-    .container {
-     text-align: center;
-     width: auto;
-     height: auto;
-     padding: none;
-    }
-
     .homepage-paragraph {
       width: 366px;
       height: 160px;
@@ -428,11 +416,6 @@ body {
     .contact-page-memoji, .homepage-memoji {
       width: 25%;
       height: 25%;
-    }
-
-    .worldClock-card, .weatherApp-card, .poemGenerator-card {
-      width: 398px;
-      height: 500px;
     }
 
     .projects-tab-container h1 {
