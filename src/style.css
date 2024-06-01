@@ -184,18 +184,12 @@ body {
 
   .homepage-projects-cards img, .homepage-projects-cards video {
     vertical-align: middle;
-    width: fit-content;
-    height: fit-content;
     margin: auto;
   }
 
   .worldClock-card {
     background-color: #6A57E3;
     color: #fff;
-  }
-
-  .weatherApp-card img {
-    height: fit-content;
   }
   
   .worldClock-card a {
