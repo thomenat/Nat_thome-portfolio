@@ -305,12 +305,24 @@ body {
     padding-bottom: 70px;
   }
 
-  .projects-vdg-block, .projects-wa-block, .projects-wca-block, .projects-pg-block {
+  .projects-vdg-block, .projects-wa-block, .projects-wca-block, .projects-pg-block, .projects-spell-wiz-block,
+  .projects-iceland-block {
     padding: 100px 50px 50px 50px;
   }
 
-  .projects-vdg-block {
+  .projects-spell-wiz-block {
     background-color: var(--tertiary-color);
+    vertical-align: middle;
+  }
+
+  .projects-iceland-block {
+    background-color: #D6E9EB;
+    vertical-align: middle;
+  }
+
+  
+  .projects-vdg-block {
+    background-color: #D6E9EB;
     vertical-align: middle;
   }
 
@@ -324,7 +336,7 @@ body {
   }
 
   .projects-pg-block {
-    background-color: #D6E9EB;
+    background-color: #F0FB96;
   }
 
   .projects-tab-container h3 {
@@ -334,7 +346,8 @@ body {
     margin-bottom: 30px;
   }
 
-  .projects-vdg-block h3, .projects-wa-block h3, .projects-pg-block h3 {
+  .projects-vdg-block h3, .projects-wa-block h3, .projects-pg-block h3, .projects-spell-wiz-block h3,
+  .projects-iceland-block h3 {
     color: var(--text-color-light);
   }
   
