@@ -163,7 +163,7 @@ body {
   }
 
   .homepage-projects-cards {
-    margin-top: 64px;
+    margin: auto 0;
   }
 
   .homepage-projects-cards h5 {
@@ -179,7 +179,8 @@ body {
   }
 
   .card {
-    height: 413px !important;
+   height: 350px !important;
+
   }
 
   .homepage-projects-cards img, .homepage-projects-cards video {
